@@ -1,4 +1,4 @@
-- hosts: test-servers
+- hosts: remote
   remote_user: root
   become: true
   vars:
